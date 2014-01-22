@@ -2,6 +2,12 @@ html {
   font: normal 100%/1.5 Palatino,serif; /* 16px/24px */
 }
 
+body {
+	margin: 0 auto;
+	padding: 0;
+	max-width: 45rem;
+}
+
 h1, h2, h3, h4, h5, h6,
 p, ul, ol, dl,
 blockquote, table, hr {
@@ -104,9 +110,8 @@ ul li {
 
 ul li:before {
 	content: "•";
-	color: #999;
 	position: absolute;
-	left: -.5em;
+	left: -1em;
 }
 
 table { 
@@ -136,4 +141,54 @@ tr:nth-child(even) td { background: #F1F1F1;
 }
 
 tr:nth-child(odd) td { background: #FEFEFE; 
-}  
+}
+
+blockquote{
+	margin-left: 2rem;
+}
+
+cite{
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+}
+
+abbr{}
+
+mark{}
+
+q{}
+
+dfn{}
+
+data{}
+
+time{}
+
+ins{}
+
+del{}
+
+hr{}
+
+caption{}
+
+s{}
+
+b{}
+
+i{}
+
+em{}
+
+strong{}
+
+sub{}
+
+sup{}
+
+footer{}
+
+dl{} 
+
+dt{}
+
+dd{}
