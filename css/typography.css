@@ -1,5 +1,5 @@
 html {
-  font: normal 100%/1.5 Palatino,serif; /* 16px/24px */
+  font: normal 100%/1.5 Palatino,serif; 
 }
 
 body {
@@ -148,7 +148,7 @@ blockquote{
 }
 
 cite{
-	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	font-family: monospace;
 }
 
 abbr{}
