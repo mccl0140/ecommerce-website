@@ -72,11 +72,11 @@ small, .milli {
 h1, h2, h3, h4, h5, h6,
 .brand {
   color: #10B3FF;
-  font-family: Helvetica, sans serif;
+  font-family: 'lucida sans', 'trebuchet MS', 'Tahoma';
 }
 
 .brand-family {
-  font-family: Helvetica, sans serif;
+  font-family: 'lucida sans', 'trebuchet MS', 'Tahoma';
 }
 
 .brand-color {
