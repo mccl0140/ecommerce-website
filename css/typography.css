@@ -1,18 +1,14 @@
 /*
   Colour Palette
-  - Background beige: #f2f1ed - rgb(242, 241, 237)
-  - Heading green: #5d8432 - rgb(93,132,50)
-  - Mark light green: #e3f595 - rgb(227,245,149);
-  - Link purple: #793284 - rgb(121,50,132)
-  - Link desaturated purple: #68446e - rgb(104,68,110)
-  - Link magenta: #b42885 - rgb(180,40,133)
-  - Light brown: #c7c0ae - rgb(199, 192, 174)
-  - Light-light brown: #eae8e1 - rgb(234, 232, 225)
- */
+  
+  Blue color: #10B3FF
+  lighter: #A7E3FF
+  Link: rgba(121,50,132,0.5)
+  
+*/
 
 html {
-  background-color: #f2f1ed;
-
+  background-color: #EEEEEE;
   color: #444;
   font: normal 100%/1.5 Georgia,serif; /* 16px/24px */
 }
@@ -75,16 +71,16 @@ small, .milli {
 
 h1, h2, h3, h4, h5, h6,
 .brand {
-  color: #5d8432;
-  font-family: "Patua One",serif;
+  color: #10B3FF;
+  font-family: Helvetica, sans serif;
 }
 
 .brand-family {
-  font-family: "Patua One",serif;
+  font-family: Helvetica, sans serif;
 }
 
 .brand-color {
-  color: #5d8432;
+  color: #10B3FF;
 }
 
 a,
@@ -140,7 +136,7 @@ del {
 }
 
 mark {
-  background-color: #e3f595;
+  background-color: rgba(121,50,132,0.5);
 }
 
 hr {
@@ -181,7 +177,7 @@ ul li:before {
 blockquote {
   padding-left: 1.5rem;
 
-  border-left: 4px solid #c7c0ae;
+  border-left: 6px solid #555555;
 }
 
 blockquote footer {
@@ -202,7 +198,7 @@ caption {
 }
 
 th {
-  background-color: #eae8e1;
+  background-color: #CCCCCC;
 
   text-align: left;
 }
@@ -210,7 +206,7 @@ th {
 th, td {
   padding: 0.25rem;
 
-  border: 1px solid #c7c0ae;
+  border: 1px solid #555555;
 }
 
 .space-none{
