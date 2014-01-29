@@ -74,7 +74,7 @@ text-shadow: 0 -1px 0 rgba(0, 0, 0, .3);
 }
    
 .search-wrapper button:hover{     
-    background: #792384;
+    background: #CA8DD4;
 }   
    
 .search-wrapper button:active,
@@ -94,7 +94,7 @@ text-shadow: 0 -1px 0 rgba(0, 0, 0, .3);
 }
  
 .search-wrapper button:hover:before{
-    border-right-color: #792384;
+    border-right-color: #CA8DD4;
 }
  
 .search-wrapper button:focus:before,
