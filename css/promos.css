@@ -5,3 +5,8 @@
 	background-color: #FFFFFF;
 	padding: 5rem;
 }
+
+.img-flex{
+	display: block;
+	width: 100%;
+}
