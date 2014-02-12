@@ -6,17 +6,21 @@
 .btn:visited{
 	display: inline-block;
 	padding: 0.75rem 1rem;
-	background-color: #10B3FF;
-	background-image: linear-gradient(to bottom, #10B3FF, #A7E3FF);
+	background-color: #707070;
 	border-radius: 6px;
-	box-shadow: rgba(0,0,0,0.5);
 	color: #FFFFFF;
-	font-weight: bold;
 }
 
 .btn-alt,
 .btn-alt:link,
 .btn-alt:visited{
-	background-color: #793284;
-	background-image: linear-gradient(to bottom, #793284, #CA8DD4);
+	background-color: #000000;
+}
+
+.btn:hover,
+.btn:focus,
+.btn:active {
+	background-color: #FFFFFF;
+	border-radius: 6px;
+	color: #000000;
 }

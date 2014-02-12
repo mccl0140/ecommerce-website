@@ -1,0 +1,45 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*SOCIAL ICONS*/
+section{
+	width: 9rem;
+	display: block;
+	margin:auto;
+	clear:both;
+}
+
+.social li a,
+.social li a:link,
+.social li a:visited{
+	margin-top: .7rem;
+	float:left;
+	height: 40px;
+	width: 40px;
+	margin-right: .4rem;
+	text-align: center;
+	padding-top: .6rem;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+	color: #fff;
+	
+	-webkit-box-shadow: inset 0px 0px 0px 40px #8F0000;
+	-moz-box-shadow: inset 0px 0px 0px 40px #8F0000;
+	-ms-box-shadow: inset 0px 0px 0px 40px #8F0000;
+	-o-box-shadow: inset 0px 0px 0px 40px #8F0000;
+	box-shadow: inset 0px 0px 0px 40px #8F0000;
+}
+
+.social li a:hover,
+.socail li a:active,
+.socail li a:focus{
+	color: #FA0D3B;
+	-webkit-box-shadow: inset 0px 0px 0px 3px #FA0D3B;
+	-moz-box-shadow: inset 0px 0px 0px 3px #FA0D3B;
+	-ms-box-shadow: inset 0px 0px 0px 3px #FA0D3B;
+	-o-box-shadow: inset 0px 0px 0px 3px #FA0D3B;
+	box-shadow: inset 0px 0px 0px 3px #FA0D3B;
+}
