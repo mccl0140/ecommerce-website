@@ -1,0 +1,12 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.background-color{
+	background-color: #FFFFFF;
+	padding: 5rem;
+}
+
+.img-flex{
+	display: block;
+	width: 100%;
+}
