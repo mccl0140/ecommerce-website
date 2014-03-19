@@ -1,7 +1,19 @@
+/*
+  Colour Palette
+  - Background beige: #f2f1ed - rgb(242, 241, 237)
+  - Heading green: #5d8432 - rgb(93,132,50)
+  - Mark light green: #e3f595 - rgb(227,245,149);
+  - Link purple: #793284 - rgb(121,50,132)
+  - Link desaturated purple: #68446e - rgb(104,68,110)
+  - Link magenta: #b42885 - rgb(180,40,133)
+  - Light brown: #c7c0ae - rgb(199, 192, 174)
+  - Light-light brown: #eae8e1 - rgb(234, 232, 225)
+ */
+
 html {
-  background-color: #EEEEEE;
+  background-color: #FFFF;
   color: #444;
-  font: normal 100%/1.5 Helvetica, sans;
+  font: normal 100%/1.5 Helvetica,sans serif;
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -131,35 +143,36 @@ small, .milli {
 
 h1, h2, h3, h4, h5, h6,
 .brand {
-  color: #00000;
-  font-family: Helvetica, sans;
+  color: #4444;
+  font-family: 'Alex Brush', cursive;
 }
 
 .brand-family {
-  font-family: Helvetica, sans;
+  font-family: 'Alex Brush', cursive;
 }
 
 .brand-color {
-  color: #707070;
+  color: #4444;
 }
 
 a,
 a:link {
+  font-family: helvetica, sans serif;
+  color: #444;
   text-decoration: none;
 }
 
 a:visited {
-	color: #68446e;
-	border-bottom-color: #68446E;
+  color: #999;
+  border-bottom-color: #666;
 }
 
 a:hover,
 a:focus,
 a:active {
-   border-bottom: 0.1em solid #793284;
-   transition: all linear;
-   color: #793284;
-   text-decoration: none;
+  border-bottom: solid;
+  color: #666;
+  border-bottom-color: #666;
 }
 
 sup,
@@ -178,7 +191,6 @@ q:after {
 
 abbr {
   border-bottom: 0.1em dotted rgba(0,0,0,0.5);
-
   cursor: help;
 }
 
@@ -193,12 +205,12 @@ del {
 }
 
 mark {
-  background-color: #e3f595;
+  background-color: yellow;
 }
 
 hr {
   border: 0;
-  border-bottom: 1px solid #000000;
+  border-bottom: 1px solid #444;
 }
 
 dt {
@@ -215,7 +227,6 @@ ol {
 
 ul {
   padding: 0;
-
   list-style-type: none;
 }
 
@@ -227,23 +238,22 @@ ul li:before {
   content: "•";
   position: absolute;
   left: -0.6em;
-  color: #707070;
+  color: #444;
 }
 
 blockquote {
   padding-left: 1.5rem;
-
-  border-left: 4px solid #000000;
+  border-left: 4px solid #444;
 }
 
 blockquote footer {
   margin-top: -1.5rem;
-
   text-align: right;
 }
 
 table {
   width: 100%;
+
   border-collapse: collapse;
   table-layout: fixed;
 }
@@ -253,11 +263,11 @@ caption {
 }
 
 th {
-  background-color: #A0A0A0;
+  background-color: #ccc;
   text-align: left;
 }
 
 th, td {
   padding: 0.25rem;
-  border: 1px solid #000000;
+  border: 1px solid #444;
 }
