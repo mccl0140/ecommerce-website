@@ -2,12 +2,12 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>About ·Dinos 'R' Us</title>
-  <meta name="description" content="A website about the amazing dinosaurs that ever existed in the world.">
+  <title>About · Urban Adornments</title>
+  <meta name="description" content="A website about home decor.">
   <meta name="handheldfriendly" content="true">
   <meta name="mobileoptimized" content="240">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link href="http://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet">
+  <link href='http://fonts.googleapis.com/css?family=Alex+Brush' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="/css/typography.css">
 	<link rel="stylesheet" href="/css/common.css">
   <link rel="stylesheet" href="/css/embed.css">
@@ -20,42 +20,49 @@
   <link rel="stylesheet" href="/css/product-list-item.css">
   <link rel="stylesheet" href="/css/product.css">
   <link rel="stylesheet" href="/css/promo.css">
+  <link rel="stylesheet" href="/css/forms.css">
 
 </head>
 
 <body>
-
-<header class="masthead island push-0">
+<header class="masthead island push-0" role="banner">
   <div class="grid grid-bottom">
     <div class="unit unit-s-1 unit-m-1 unit-l-1-3">
-      <h1 class="push-0"><img class="img-flex logo" src="/images/dinos-r-us.svg" alt="Dinosaurs"></h1>
+      <h1 class="push-0"><img class="img-flex logo" src="/images/logo.svg" alt="Urban Adornments"></h1>
     </div>
-    <nav class="unit unit-s-1 unit-m-1 unit-l-2-3">
+    <nav class="unit unit-s-1 unit-m-1 unit-l-2-3" role="navigation">
       <ul class="list-group giga brand-family push-0 nav">
         <li class="list-group-item list-group-item-inline">
           <a class="" href="/">Home</a>
         </li>
         <li class="list-group-item list-group-item-inline">
-          <a class=""href="/dinos/">Dinosaurs</a>
+          <a class=""href="/products/">Products</a>
         </li>
         <li class="list-group-item list-group-item-inline">
           <a class="current" href="/about/">About</a>
         </li>
       </ul>
+		  <div class="search-bar">
+			<form action="/search.html" class="search-wrapper cf" role="search">
+				<input type="text" placeholder="Search here..." required="">
+				<button type="submit">Search</button>
+			</form>
+		  </div>
     </nav>
   </div>
 </header>
 
 
 
+<main role="main">
 <h1>About!</h1>
 <p>This is the about page.</p>
-
+</main>
 
 <footer class="footer pad-t">
   <div class="grid">
-    <div class="unit unit-s-1 unit-m-1 unit-l-1-2 gutter-1-2">
-      <p class="footer-copyright"><small>© 2014 Dinos ’R’ Us</small></p>
+    <div class="unit unit-s-1 unit-m-1 unit-l-1-2 gutter-1-2" role="contentinfo">
+      <p class="footer-copyright"><small>© 2014 Urban Adornments</small></p>
     </div>
     <div class="unit unit-s-1 unit-m-1 unit-l-1-2 gutter-1-2">
       <ul class="list-group footer-links">

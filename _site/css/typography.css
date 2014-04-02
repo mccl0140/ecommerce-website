@@ -11,10 +11,9 @@
  */
 
 html {
-  background-color: #f2f1ed;
-
-  color: #444;
-  font: normal 100%/1.5 Georgia,serif;
+  background-color: #EEEAE7;
+  color: #000000;
+  font: normal 100%/1.5 Helvetica,sans serif;
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -144,37 +143,47 @@ small, .milli {
 
 h1, h2, h3, h4, h5, h6,
 .brand {
-  color: #5d8432;
-  font-family: "Patua One",serif;
+  color: #4444;
+  font-family: 'Alex Brush', cursive;
 }
 
 .brand-family {
-  font-family: "Patua One",serif;
+  font-family: 'Alex Brush', cursive;
 }
 
 .brand-color {
-  color: #5d8432;
+  color: #4444;
 }
 
 a,
 a:link {
-  border-bottom: 0.1em solid rgba(121,50,132,0.5);
-  transition: all 150ms linear;
-
-  color: #793284;
+  font-family: helvetica, sans serif;
+  color: #444;
   text-decoration: none;
 }
 
 a:visited {
-  color: #68446e;
-  border-bottom-color: rgba(104,68,110,0.5);
+  color: #000000;
+  border-bottom-color: #666;
 }
 
 a:hover,
 a:focus,
 a:active {
-  color: #b42885;
-  border-bottom-color: #b42885;
+  border-bottom: solid;
+  color: #666;
+  border-bottom-color: #666;
+}
+
+a:hover,
+a:active {
+	/*Focus rectangle removed*/
+	outline: none;
+}
+
+a:focus{
+	/*Focus Rectangle styled*/
+	outline: 3px solid blue;
 }
 
 sup,
@@ -193,13 +202,11 @@ q:after {
 
 abbr {
   border-bottom: 0.1em dotted rgba(0,0,0,0.5);
-
   cursor: help;
 }
 
 ins {
   border-bottom: 0.1em dotted rgba(0,0,0,0.5);
-
   color: #000;
   text-decoration: none;
 }
@@ -209,12 +216,12 @@ del {
 }
 
 mark {
-  background-color: #e3f595;
+  background-color: yellow;
 }
 
 hr {
   border: 0;
-  border-bottom: 1px solid #c7c0ae;
+  border-bottom: 1px solid #444;
 }
 
 dt {
@@ -231,7 +238,6 @@ ol {
 
 ul {
   padding: 0;
-
   list-style-type: none;
 }
 
@@ -243,19 +249,16 @@ ul li:before {
   content: "•";
   position: absolute;
   left: -0.6em;
-
-  color: #c7c0ae;
+  color: #444;
 }
 
 blockquote {
   padding-left: 1.5rem;
-
-  border-left: 4px solid #c7c0ae;
+  border-left: 4px solid #444;
 }
 
 blockquote footer {
   margin-top: -1.5rem;
-
   text-align: right;
 }
 
@@ -271,13 +274,11 @@ caption {
 }
 
 th {
-  background-color: #eae8e1;
-
+  background-color: #ccc;
   text-align: left;
 }
 
 th, td {
   padding: 0.25rem;
-
-  border: 1px solid #c7c0ae;
+  border: 1px solid #444;
 }

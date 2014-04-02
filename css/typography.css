@@ -11,8 +11,8 @@
  */
 
 html {
-  background-color: #FFFF;
-  color: #444;
+  background-color: #EEEAE7;
+  color: #000000;
   font: normal 100%/1.5 Helvetica,sans serif;
 }
 
@@ -163,7 +163,7 @@ a:link {
 }
 
 a:visited {
-  color: #999;
+  color: #000000;
   border-bottom-color: #666;
 }
 
@@ -173,6 +173,17 @@ a:active {
   border-bottom: solid;
   color: #666;
   border-bottom-color: #666;
+}
+
+a:hover,
+a:active {
+	/*Focus rectangle removed*/
+	outline: none;
+}
+
+a:focus{
+	/*Focus Rectangle styled*/
+	outline: 3px solid blue;
 }
 
 sup,
