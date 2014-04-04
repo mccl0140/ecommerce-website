@@ -181,7 +181,9 @@ a:active {
 	outline: none;
 }
 
-a:focus{
+a:focus,
+input:focus,
+button:focus{
 	/*Focus Rectangle styled*/
 	outline: 3px solid blue;
 }
