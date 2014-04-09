@@ -3,17 +3,37 @@ layout: default
 title: Search Results
 ---
 
-<h1>Search Results</h1>
-<div class="grid">
-	{% for product in site.pages %}
-		{% if product.type == include.type %}
-			<div class="gutter unit unit-s-1 unit-m-1-2 unit-l-1-3">
-				<a href="{{site.baseurl}}{{product.url}}">
-					<img class="img-flex" src="http://placehold.it/300x300" alt="Photo of {{product.title}}">
-					<h3 class="tera">Title</h3>
-					<h3>$$$</h3>
-				</a>
-			</div>
-		{% endif %}
-	{% endfor %}
+
+
+<main role="main">
+	<h1>Search Results</h1>
+<div class="grid-bottom">
+	<p>5 Products found for "couches"</p>
+		<div class="unit unit-s-1 unit-m-1 unit-l-1-5 gutter">
+			<a href="/products/couches/black-couch/">
+			<img class="img-flex" src="/images/couches/black-couch.jpg" alt="">
+			Black Couch</a>
+		</div>
+		<div class="unit unit-s-1 unit-m-1 unit-l-1-5 gutter">
+			<a href="/products/couches/brown-couch/">
+			<img class="img-flex" src="/images/couches/brown-couch.jpg" alt="">
+			Brown Couch</a>
+		</div>
+		<div class="unit unit-s-1 unit-m-1 unit-l-1-5 gutter">
+			<a href="/products/couches/floral-couch/">
+			<img class="img-flex" src="/images/couches/floral-couch.jpg" alt="">
+			Floral Couch</a>
+		</div>
+		<div class="unit unit-s-1 unit-m-1 unit-l-1-5 gutter">
+			<a href="/products/couches/leather-couch/">
+			<img class="img-flex" src="/images/couches/leather-couch.jpg" alt="">
+			Leather Couch</a>
+		</div>
+		<div class="unit unit-s-1 unit-m-1 unit-l-1-5 gutter">
+			<a href="/products/couches/red-couch/">
+			<img class="img-flex" src="/images/couches/red-couch.jpg" alt="">
+			Red Couch</a>
+		</div>
+
 </div>
+<main>

@@ -22,6 +22,10 @@ fieldset, pre, table {
   margin: 1rem;
 }
 
+p, li{
+  font-family: helvetica, sans serif;
+}
+
 .yotta {
   font-size: 2.2807rem;
   line-height: 1.3154;

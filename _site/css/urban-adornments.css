@@ -22,6 +22,10 @@ fieldset, pre, table {
   margin: 1rem;
 }
 
+p, li{
+  font-family: helvetica, sans serif;
+}
+
 .yotta {
   font-size: 2.2807rem;
   line-height: 1.3154;
@@ -411,6 +415,7 @@ body {
 .grid-bottom {
   -webkit-align-items: flex-end;
   -ms-align-items: flex-end;
+  padding-bottom: 2rem;
 }
 
 .opera-only :-o-prefocus, .grid {
@@ -986,6 +991,23 @@ body {
 	width: 267px;
 	margin: .75rem;
 	padding: 1rem;
+}
+
+.quantity{
+	margin-bottom: 2rem;
+}
+
+.quantity-size{
+	font-size: 1rem;
+}
+
+.total-size{
+	font-size: 1.5rem;
+}
+
+.button-size{
+	font-size: 100%;
+
 }
 
 .promo-small{

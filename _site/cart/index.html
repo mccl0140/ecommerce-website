@@ -49,22 +49,41 @@
 <p>Please Select the amount of this product you would like.</p>
 <div class="grid">
 <div class="unit-s-1 unit-m-1 unit-l-1-4">
-<h1 class="push-0">Product</h1>
-<img class="img-flex" src="http://placehold.it/300x300" alt="Photo of couch.">
+<h1 class="push-0">Black Couch</h1>
+<img class="img-flex" src="/images/couches/black-couch.jpg" alt="Photo of couch.">
 </div>
 
 <div class="giga push-0 unit-s-1 unit-m-1 unit-l-1-2">
 <dl>
-	<dt>Price</dt>
-	<dd>$$$</dd>
 	<dt>Info</dt>
-	<dd>Black Couch</dd>
+	<dd>Black Couch: A classy and comfortable couch for any household.</dd>
+	<dt>Price</dt>
+	<dd>$130.00</dd>
+
+	<div class="quantity">
+	<form>
+		 <dt>Quantity:
+		 <input class="quantity-size" type='text' name='qty' id='qty' readonly=true value="1"/>
+		 <input class="button-size" type='button' name='subtract' onclick='Total("qty",-1,"total",130.00);' value='-'/>
+		 <input class="button-size" type='button' name='add' onclick='Total("qty",1,"total",130.00);' value='+'/></dt>
+		 <dt>Total:
+		 <input class="total-size" type='text' name='total' id='total' value="$130.00" /></dt>
+	</form>
+</div>
 	<a class="btn" href="/thank-you">Buy Now!</a>
 </dl>
 
+<script>
+function Total(qty,ud,total,value){
+ qty=document.getElementById(qty);
+ ud>0?qty.value++:qty.value--;
+ qty.value=Math.max(qty.value,0);
+ document.getElementById(total).value=qty.value*value;
+}
+  </script>
+
 </div>
 </main>
-
 
 
 <footer class="footer pad-t">

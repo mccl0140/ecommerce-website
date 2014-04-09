@@ -12,6 +12,7 @@
 .grid-bottom {
   -webkit-align-items: flex-end;
   -ms-align-items: flex-end;
+  padding-bottom: 2rem;
 }
 
 .opera-only :-o-prefocus, .grid {
