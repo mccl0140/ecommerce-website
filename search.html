@@ -1,0 +1,19 @@
+---
+layout: default
+title: Search Results
+---
+
+<h1>Search Results</h1>
+<div class="grid">
+	{% for product in site.pages %}
+		{% if product.type == include.type %}
+			<div class="gutter unit unit-s-1 unit-m-1-2 unit-l-1-3">
+				<a href="{{site.baseurl}}{{product.url}}">
+					<img class="img-flex" src="http://placehold.it/300x300" alt="Photo of {{product.title}}">
+					<h3 class="tera">Title</h3>
+					<h3>$$$</h3>
+				</a>
+			</div>
+		{% endif %}
+	{% endfor %}
+</div>

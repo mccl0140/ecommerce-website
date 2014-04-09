@@ -1,22 +1,22 @@
 ---
 layout: default
 ---
+<a href="{{site.baseurl}}/products"><h1 class="yotta">Products</h1></a>
 <div class="grid">
-<div class="unit-s-1 unit-m-1 unit-l-1-3">
+<div class="unit-s-1 unit-m-1 unit-l-1-4">
 <h1 class="push-0">{{page.title}}</h1>
+<img class="img-flex" src="{{site.baseurl}}/images/{{page.image}}" alt="Photo of{{page.title}}">
 </div>
 
-<div class="push-0 unit unit-s-1 unit-m-1 unit-l-1-3">
-	<img class="img-flex" src="{{site.baseurl}}/images/{{page.image}}" alt="Photo of{{page.title}}">
-</div>
-
-<div class="push-0 unit-s-1 unit-m-1 unit-l-1-3">
+<div class="giga push-0 unit-s-1 unit-m-1 unit-l-1-2">
 <dl>
 	<dt>Price</dt>
 	<dd>{{page.price}}</dd>
 	<dt>Info</dt>
 	<dd>{{page.meta}}</dd>
+	<a class="btn" href="{{site.baseurl}}/cart">Add to Cart!</a>
 </dl>
+
 </div>
 
 {{content}}

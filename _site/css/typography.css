@@ -19,7 +19,7 @@ h1, h2, h3, h4, h5, h6,
 p, ul, ol, dl, dd, figure,
 blockquote, details, hr,
 fieldset, pre, table {
-  margin: 0 0 1.5rem;
+  margin: 1rem;
 }
 
 .yotta {
@@ -185,6 +185,7 @@ input:focus,
 button:focus{
 	/*Focus Rectangle styled*/
 	outline: 3px solid blue;
+  color: blue;
 }
 
 sup,
@@ -225,12 +226,17 @@ hr {
   border-bottom: 1px solid #444;
 }
 
+dl{
+  margin-left: 5rem;
+}
+
 dt {
   font-weight: bold;
+  margin-top: 1rem;
 }
 
 dd {
-  margin: 0;
+  margin-bottom: 1rem;
 }
 
 ol {
@@ -282,4 +288,8 @@ th {
 th, td {
   padding: 0.25rem;
   border: 1px solid #444;
+}
+
+.outline{
+  border: red 1px solid;
 }

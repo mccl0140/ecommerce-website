@@ -6,23 +6,23 @@
     content:"";
     display:table;
 }
- 
+
 .cf:after{
     clear:both;
 }
- 
+
 .cf{
     zoom:1;
-}    
+}
 
  /* Form wrapper styling */
 .search-wrapper {
 width: 210px;
 box-shadow: 0 1px 1px rgba(0, 0, 0, .4) inset, 0 1px 0 rgba(255, 255, 255, .2);
 }
- 
+
 /* Form text input */
- 
+
 .search-wrapper input {
 width: 138px;
 height: 40px;
@@ -33,31 +33,31 @@ border: 0;
 background: #EEE;
 border-radius: 3px 0 0 3px;
 }
- 
+
 .search-wrapper input:focus {
     outline: 0;
     background: #fff;
     box-shadow: 0 0 2px rgba(0,0,0,.8) inset;
 }
- 
+
 .search-wrapper input::-webkit-input-placeholder {
    color: #999;
    font-weight: normal;
    font-style: italic;
 }
- 
+
 .search-wrapper input:-moz-placeholder {
     color: #999;
     font-weight: normal;
     font-style: italic;
 }
- 
+
 .search-wrapper input:-ms-input-placeholder {
     color: #999;
     font-weight: normal;
     font-style: italic;
-}    
- 
+}
+
 /* Form submit button */
 .search-wrapper button {
 overflow: visible;
@@ -75,17 +75,17 @@ background: #766355;
 border-radius: 0 3px 3px 0;
 text-shadow: 0 -1px 0 rgba(0, 0, 0, .3);
 }
-   
-.search-wrapper button:hover{     
+
+.search-wrapper button:hover{
     background: #666;
-}   
-   
-.search-wrapper button:active,
-.search-wrapper button:focus{   
-    background: #666;
-    outline: 0;   
 }
- 
+
+.search-wrapper button:active,
+.search-wrapper button:focus{
+    background: #666;
+    outline: 0;
+}
+
 .search-wrapper button:before { /* left arrow */
     content: '';
     position: absolute;
@@ -95,17 +95,17 @@ text-shadow: 0 -1px 0 rgba(0, 0, 0, .3);
     top: 12px;
     left: -6px;
 }
- 
+
 .search-wrapper button:hover:before{
     border-right-color: #666;
 }
- 
+
 .search-wrapper button:focus:before,
 .search-wrapper button:active:before{
         border-right-color: #666;
-}      
- 
+}
+
 .search-wrapper button::-moz-focus-inner { /* remove extra button spacing for Mozilla Firefox */
     border: 0;
     padding: 0;
-}    
+}

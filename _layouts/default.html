@@ -21,6 +21,7 @@
   <link rel="stylesheet" href="{{site.baseurl}}/css/product.css">
   <link rel="stylesheet" href="{{site.baseurl}}/css/promo.css">
   <link rel="stylesheet" href="{{site.baseurl}}/css/forms.css">
+  <link rel="stylesheet" href="{{site.baseurl}}/css/buttons.css">
 
 </head>
 
@@ -42,13 +43,15 @@
           <a class="{% if page.url =="/about/" %}current{% endif %}" href="{{site.baseurl}}/about/">About</a>
         </li>
       </ul>
+
 		  <div class="search-bar">
-			<form action="/search.html" class="search-wrapper cf" role="search">
+      	<form action="{{site.baseurl}}/search" class="search-wrapper cf" role="search">
 				<input type="text" placeholder="Search here..." required="">
 				<button type="submit">Search</button>
 			</form>
 		  </div>
     </nav>
+
   </div>
 </header>
 
