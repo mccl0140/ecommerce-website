@@ -1,0 +1,33 @@
+---
+---
+
+{% include css/typography.css %}
+{% include css/common.css %}
+{% include css/embed.css %}
+{% include css/grid.css %}
+{% include css/icons.css %}
+{% include css/list-group.css %}
+{% include css/media-objects.css %}
+{% include css/header.css %}
+{% include css/footer.css %}
+{% include css/product-list-item.css %}
+{% include css/product.css %}
+{% include css/promo.css %}
+{% include css/forms.css %}
+{% include css/buttons.css %}
+
+
+/*<link rel="stylesheet" href="{{site.baseurl}}/css/typography.css">
+	<link rel="stylesheet" href="{{site.baseurl}}/css/common.css">
+  <link rel="stylesheet" href="{{site.baseurl}}/css/embed.css">
+  <link rel="stylesheet" href="{{site.baseurl}}/css/grid.css">
+  <link rel="stylesheet" href="{{site.baseurl}}/css/icons.css">
+  <link rel="stylesheet" href="{{site.baseurl}}/css/list-group.css">
+  <link rel="stylesheet" href="{{site.baseurl}}/css/media-object.css">
+  <link rel="stylesheet" href="{{site.baseurl}}/css/header.css">
+  <link rel="stylesheet" href="{{site.baseurl}}/css/footer.css">
+  <link rel="stylesheet" href="{{site.baseurl}}/css/product-list-item.css">
+  <link rel="stylesheet" href="{{site.baseurl}}/css/product.css">
+  <link rel="stylesheet" href="{{site.baseurl}}/css/promo.css">
+  <link rel="stylesheet" href="{{site.baseurl}}/css/forms.css">
+  <link rel="stylesheet" href="{{site.baseurl}}/css/buttons.css">*/
