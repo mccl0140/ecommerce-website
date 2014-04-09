@@ -1,8 +1,8 @@
 ---
 layout: products
-title: Bean Bag Chair
-meta: A comfy moveable chair, great for children.
+title: Black-couch
+meta: A classy and comfortable couch for any household.
 type: couches
-price: $30.00
-image: promo/couch.jpg
+price: $130.00
+image: couches/black-couch.jpg
 ---

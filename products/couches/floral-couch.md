@@ -1,8 +1,8 @@
 ---
 layout: products
-title: Bean Bag Chair
-meta: A comfy moveable chair, great for children.
+title: Floral Couch
+meta: A great couch to add bright colours to your room.
 type: couches
-price: $30.00
-image: promo/couch.jpg
+price: $300.00
+image: couches/floral-couch.jpg
 ---
