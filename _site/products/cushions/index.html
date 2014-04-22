@@ -24,7 +24,7 @@
           <a class="" href="/">Home</a>
         </li>
         <li class="list-group-item list-group-item-inline">
-          <a class=""href="/products/">Products</a>
+          <a class="current"href="/products/">Products</a>
         </li>
         <li class="list-group-item list-group-item-inline">
           <a class="" href="/about/">About</a>
@@ -45,43 +45,126 @@
 
 
 <main role="main">
-<h1>Checkout</h1>
-<p>Please Select the amount of this product you would like.</p>
-<div class="grid">
-<div class="unit-s-1 unit-m-1 unit-l-1-4">
-<h1 class="push-0">Ivory Couch</h1>
-<img class="img-flex" src="/images/couches/ivory-couch.svg" alt="Photo of ivory couch.">
+	<div class="grid">
+		<div class="gutter unit unit-s-1 unit-m-1 unit-l-1">
+			<a href="/products"><h1 class="yotta">Products</h1></a>
+		</div>
+	</div>
+
+	<div class="grid">
+		<div class="unit unit-s-1 unit-m-1 unit-l-1">
+				<div class="gutter heading pad-b-2">
+					<h2 class="zetta">Cushions</h2></a>
+				</div>
+				<div class="grid">
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+			<div class="gutter unit unit-s-1 unit-m-1-2 unit-l-1-3">
+				<a href="/products/cushions/brown-cushion/">
+					<img class="img-flex" src="/images/cushions/brown-cushion.svg" alt="Photo of Brown Cushion">
+					<h3 class="tera">Brown Cushion</h3>
+					<h3>$20.00</h3>
+				</a>
+			</div>
+		
+	
+		
+			<div class="gutter unit unit-s-1 unit-m-1-2 unit-l-1-3">
+				<a href="/products/cushions/camo-cushion/">
+					<img class="img-flex" src="/images/cushions/camo-cushion.svg" alt="Photo of Camo Cushion">
+					<h3 class="tera">Camo Cushion</h3>
+					<h3>$35.00</h3>
+				</a>
+			</div>
+		
+	
+		
+			<div class="gutter unit unit-s-1 unit-m-1-2 unit-l-1-3">
+				<a href="/products/cushions/grey-cushion/">
+					<img class="img-flex" src="/images/cushions/grey-cushion.svg" alt="Photo of Grey Cushion">
+					<h3 class="tera">Grey Cushion</h3>
+					<h3>$20.00</h3>
+				</a>
+			</div>
+		
+	
+		
+	
+		
+			<div class="gutter unit unit-s-1 unit-m-1-2 unit-l-1-3">
+				<a href="/products/cushions/ivory-cushion/">
+					<img class="img-flex" src="/images/cushions/ivory-cushion.svg" alt="Photo of Ivory Cushion">
+					<h3 class="tera">Ivory Cushion</h3>
+					<h3>$20.00</h3>
+				</a>
+			</div>
+		
+	
+		
+			<div class="gutter unit unit-s-1 unit-m-1-2 unit-l-1-3">
+				<a href="/products/cushions/olive-cushion/">
+					<img class="img-flex" src="/images/cushions/olive-cushion.svg" alt="Photo of Olive Cushion">
+					<h3 class="tera">Olive Cushion</h3>
+					<h3>$20.00</h3>
+				</a>
+			</div>
+		
+	
+		
+			<div class="gutter unit unit-s-1 unit-m-1-2 unit-l-1-3">
+				<a href="/products/cushions/red-cushion/">
+					<img class="img-flex" src="/images/cushions/red-cushion.svg" alt="Photo of Red Cushion">
+					<h3 class="tera">Red Cushion</h3>
+					<h3>$20.00</h3>
+				</a>
+			</div>
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
 </div>
 
-<div class="giga push-0 unit-s-1 unit-m-1 unit-l-1-2">
-<dl>
-	<dt>Info</dt>
-	<dd>Ivory Couch: A classy and comfortable couch for any household.</dd>
-	<dt>Price</dt>
-	<dd>$130.00</dd>
-
-	<div class="quantity">
-	<form>
-		 <dt>Quantity:
-		 <input class="quantity-size" type='text' name='qty' id='qty' readonly=true value="1"/>
-		 <input class="button-size" type='button' name='subtract' onclick='Total("qty",-1,"total",130.00);' value='-'/>
-		 <input class="button-size" type='button' name='add' onclick='Total("qty",1,"total",130.00);' value='+'/></dt>
-		 <dt>Total:
-		 <input class="total-size" type='text' name='total' id='total' value="$130.00" /></dt>
-	</form>
-</div>
-	<a class="btn" href="/thank-you">Buy Now!</a>
-</dl>
-
-<script>
-function Total(qty,ud,total,value){
- qty=document.getElementById(qty);
- ud>0?qty.value++:qty.value--;
- qty.value=Math.max(qty.value,0);
- document.getElementById(total).value=qty.value*value;
-}
-  </script>
-
+		</div>
 </div>
 </main>
 

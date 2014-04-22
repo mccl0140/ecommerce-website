@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <title>Urban Adornments</title>
   <link href="images/favicon.ico" rel="shortcut icon">
-  <meta name="description" content="">
+  <meta name="description" content="A splash of red to add to any room for a bright accent.">
   <meta name="handheldfriendly" content="true">
   <meta name="mobileoptimized" content="240">
   <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -24,7 +24,7 @@
           <a class="" href="/">Home</a>
         </li>
         <li class="list-group-item list-group-item-inline">
-          <a class=""href="/products/">Products</a>
+          <a class="current"href="/products/">Products</a>
         </li>
         <li class="list-group-item list-group-item-inline">
           <a class="" href="/about/">About</a>
@@ -44,46 +44,26 @@
 
 
 
-<main role="main">
-<h1>Checkout</h1>
-<p>Please Select the amount of this product you would like.</p>
+<a href="/products"><h1 class="yotta">Products</h1></a>
 <div class="grid">
 <div class="unit-s-1 unit-m-1 unit-l-1-4">
-<h1 class="push-0">Ivory Couch</h1>
-<img class="img-flex" src="/images/couches/ivory-couch.svg" alt="Photo of ivory couch.">
+<h1 class="push-0">Red Cushion</h1>
+<img class="img-flex" src="/images/cushions/red-cushion.svg" alt="Photo ofRed Cushion">
 </div>
 
 <div class="giga push-0 unit-s-1 unit-m-1 unit-l-1-2">
 <dl>
-	<dt>Info</dt>
-	<dd>Ivory Couch: A classy and comfortable couch for any household.</dd>
 	<dt>Price</dt>
-	<dd>$130.00</dd>
-
-	<div class="quantity">
-	<form>
-		 <dt>Quantity:
-		 <input class="quantity-size" type='text' name='qty' id='qty' readonly=true value="1"/>
-		 <input class="button-size" type='button' name='subtract' onclick='Total("qty",-1,"total",130.00);' value='-'/>
-		 <input class="button-size" type='button' name='add' onclick='Total("qty",1,"total",130.00);' value='+'/></dt>
-		 <dt>Total:
-		 <input class="total-size" type='text' name='total' id='total' value="$130.00" /></dt>
-	</form>
-</div>
-	<a class="btn" href="/thank-you">Buy Now!</a>
+	<dd>$20.00</dd>
+	<dt>Info</dt>
+	<dd>A splash of red to add to any room for a bright accent.</dd>
+	<a class="btn" href="/cart">Add to Cart!</a>
 </dl>
 
-<script>
-function Total(qty,ud,total,value){
- qty=document.getElementById(qty);
- ud>0?qty.value++:qty.value--;
- qty.value=Math.max(qty.value,0);
- document.getElementById(total).value=qty.value*value;
-}
-  </script>
+</div>
+
 
 </div>
-</main>
 
 
 <footer class="footer pad-t">
