@@ -16,7 +16,7 @@ html {
 }
 
 h1, h2, h3, h4, h5, h6,
-p, ul, ol, dl, dd, figure,
+p, ul, ol, dl, figure,
 blockquote, details, hr,
 fieldset, pre, table {
   margin: 1rem;
@@ -236,11 +236,10 @@ dl{
 
 dt {
   font-weight: bold;
-  margin-top: 1rem;
 }
 
-dd {
-  margin-bottom: 1rem;
+dd{
+  padding-bottom: 2rem;
 }
 
 ol {
