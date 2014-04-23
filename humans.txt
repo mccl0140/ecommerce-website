@@ -1,13 +1,38 @@
-# humanstxt.org
 
-# TEAM
-
----
-
-# THANKS
-
----
-
-# TECHNOLOGY
+/* TEAM */
 
 
+Your title: Samantha McClelland.
+
+
+Site: mccl0140@algonquinlive.com.
+
+
+Twitter: @mcclellandsam.
+
+
+Location: Ottawa, Canada.
+
+
+
+
+/* THANKS */
+
+
+Name: Urban Adornments
+
+
+
+/* SITE */
+
+
+Last update: 2014/04/23
+
+
+Standards: HTML5, CSS.
+
+
+Components: jQuery.
+
+
+Software: Sublime, Dreamweaver, Illustrator.
