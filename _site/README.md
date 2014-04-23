@@ -1,6 +1,6 @@
-# inclass-ecommerce
+# ecommerce-website
 
-A demonstration repo for in class ecommerce website design system.
+An ecommerce website called Urban Adornments.
 
 ---
 

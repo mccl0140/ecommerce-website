@@ -16,7 +16,6 @@
 }
 
 .nav {
-  float: rigtht;
   text-align: right;
   width: 100%;
 }
@@ -28,9 +27,9 @@
 }
 
 .banner{
-  background: #ac998b url("../images/banner.jpg") no-repeat center center;
+  background: #ac998b url("../images/banner.jpg") no-repeat;
   background-size:cover;
-  padding: 5rem 1rem 1rem;
+  padding: .5rem;
   text-align: center;
   color:#fff;
 
